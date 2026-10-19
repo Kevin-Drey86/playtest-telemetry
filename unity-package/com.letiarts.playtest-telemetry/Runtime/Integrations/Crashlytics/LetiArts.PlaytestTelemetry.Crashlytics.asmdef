@@ -1,0 +1,27 @@
+{
+  "name": "LetiArts.PlaytestTelemetry.Crashlytics",
+  "rootNamespace": "LetiArts.PlaytestTelemetry.Integrations",
+  "references": [
+    "LetiArts.PlaytestTelemetry"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Firebase.App.dll",
+    "Firebase.Crashlytics.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "PT_HAS_CRASHLYTICS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.google.firebase.crashlytics",
+      "expression": "",
+      "define": "PT_HAS_CRASHLYTICS"
+    }
+  ],
+  "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "LetiArts.PlaytestTelemetry.Samples.BasicSetup",
+  "rootNamespace": "",
+  "references": [
+    "LetiArts.PlaytestTelemetry"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

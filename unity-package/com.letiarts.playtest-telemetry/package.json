@@ -1,0 +1,26 @@
+{
+  "name": "com.letiarts.playtest-telemetry",
+  "version": "0.1.0",
+  "displayName": "Playtest Telemetry",
+  "description": "Remote logging and performance telemetry for Unity mobile playtests. Captures logs, exceptions, breadcrumbs and performance samples, and ships them to a Cloudflare Worker + Supabase backend.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/letiarts/playtest-telemetry",
+  "keywords": ["telemetry", "logging", "playtest", "performance", "crash"],
+  "author": {
+    "name": "LetiArts",
+    "email": "info@letiarts.com"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Basic Setup",
+      "description": "A small OnGUI component that exercises every public API call.",
+      "path": "Samples~/BasicSetup"
+    },
+    {
+      "displayName": "Bug Report Overlay",
+      "description": "A plain uGUI overlay opened with a three-finger tap or a device shake.",
+      "path": "Samples~/BugReportOverlay"
+    }
+  ]
+}

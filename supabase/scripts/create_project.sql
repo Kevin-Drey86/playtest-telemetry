@@ -9,7 +9,7 @@ with k as (
 ins as (
   insert into public.projects (name, api_key_hash, discord_webhook_url, retention_days)
   select
-    'My Game',                                   -- project name
+    'Puzzle Scout 2',                                   -- project name
     encode(sha256(convert_to(k.raw, 'UTF8')), 'hex'),
     null,                                        -- Discord webhook URL, e.g. 'https://discord.com/api/webhooks/...'
     30                                           -- retention_days

@@ -1,0 +1,6 @@
+<linker>
+  <!-- The settings asset is only referenced from a Resources-loaded ScriptableObject: keep its serialized fields under IL2CPP stripping. -->
+  <assembly fullname="LetiArts.PlaytestTelemetry">
+    <type fullname="LetiArts.PlaytestTelemetry.TelemetrySettings" preserve="all"/>
+  </assembly>
+</linker>

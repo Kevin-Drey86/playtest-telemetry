@@ -3,7 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2026-10-01"
 
 [vars]
-SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co"
+SUPABASE_URL = "https://mrxohidilorthdrrbdwi.supabase.co"
 APP_VERSION = "0.1.0"
 
 # Secrets (never commit): set with
