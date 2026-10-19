@@ -1,0 +1,4 @@
+# Copy to .dev.vars (gitignored). Placeholders only.
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+# Optional override for local dev (otherwise wrangler.toml [vars] is used)
+# SUPABASE_URL=http://127.0.0.1:54321

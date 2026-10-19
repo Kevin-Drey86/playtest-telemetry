@@ -1,0 +1,15 @@
+name = "playtest-telemetry"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[vars]
+SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co"
+APP_VERSION = "0.1.0"
+
+# Secrets (never commit): set with
+#   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+# Local dev: copy .dev.vars.example to .dev.vars
+
+# Daily retention purge (calls purge_old_data()). 03:17 UTC.
+[triggers]
+crons = ["17 3 * * *"]
