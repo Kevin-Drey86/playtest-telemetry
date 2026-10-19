@@ -1,0 +1,21 @@
+apiVersion: 1
+
+datasources:
+  - name: Supabase
+    uid: supabase
+    type: grafana-postgresql-datasource
+    access: proxy
+    isDefault: true
+    editable: false
+    url: ${SUPABASE_DB_HOST}:${SUPABASE_DB_PORT}
+    user: ${SUPABASE_DB_USER}
+    jsonData:
+      database: ${SUPABASE_DB_NAME}
+      sslmode: require
+      postgresVersion: 1500
+      maxOpenConns: 5
+      maxIdleConns: 2
+      connMaxLifetime: 14400
+      timescaledb: false
+    secureJsonData:
+      password: ${SUPABASE_DB_PASSWORD}

@@ -1,0 +1,12 @@
+{
+  "name": "playtest-telemetry-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-dashboards.mjs",
+    "test": "node verify-queries.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}
