@@ -8,7 +8,7 @@ Requires Unity 2021.3 or newer. No third-party dependencies.
 Package Manager > **Add package from git URL**:
 
 ```
-https://github.com/<org>/playtest-telemetry.git?path=/unity-package/com.letiarts.playtest-telemetry
+https://github.com/Kevin-Drey86/playtest-telemetry.git?path=/unity-package/com.letiarts.playtest-telemetry
 ```
 
 ## Quick start

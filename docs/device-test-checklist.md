@@ -9,7 +9,7 @@ has **not** been run by the author. Run this once on a real phone before the fir
 
 ## Steps
 1. **Install:** Package Manager > Add package from git URL
-   `https://github.com/<org>/playtest-telemetry.git?path=/unity-package/com.letiarts.playtest-telemetry`
+   `https://github.com/Kevin-Drey86/playtest-telemetry.git?path=/unity-package/com.letiarts.playtest-telemetry`
    (or "Add package from disk" on `unity-package/com.letiarts.playtest-telemetry/package.json`).
    Expect: no console errors; Samples appear in the Package Manager.
 2. **Settings:** Project Settings > Playtest Telemetry > *Create settings*. Paste the Worker URL and API key.

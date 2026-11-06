@@ -4,8 +4,20 @@
   "displayName": "Playtest Telemetry",
   "description": "Remote logging and performance telemetry for Unity mobile playtests. Captures logs, exceptions, breadcrumbs and performance samples, and ships them to a Cloudflare Worker + Supabase backend.",
   "unity": "2021.3",
-  "documentationUrl": "https://github.com/letiarts/playtest-telemetry",
-  "keywords": ["telemetry", "logging", "playtest", "performance", "crash"],
+  "dependencies": {
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  },
+  "documentationUrl": "https://github.com/Kevin-Drey86/playtest-telemetry",
+  "keywords": [
+    "telemetry",
+    "logging",
+    "playtest",
+    "performance",
+    "crash"
+  ],
   "author": {
     "name": "LetiArts",
     "email": "info@letiarts.com"
